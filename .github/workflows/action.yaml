@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: list dir
-        uses: ls -la
+        run: ls -la
       - name: clone code
         run: actions/checkout@v2
       - name: list dir 2
