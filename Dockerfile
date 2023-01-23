@@ -5,7 +5,7 @@ WORKDIR $HOME
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY lesson23_project_source .
+COPY pythonProject3 .
 
 CMD ["sh", "entrypoint.sh"]
 
